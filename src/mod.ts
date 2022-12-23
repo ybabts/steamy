@@ -1,0 +1,1 @@
+export { default as SteamIdentifier } from "src/SteamIdentifier.ts"
