@@ -1,7 +1,7 @@
 export const endpoint = 'https://api.steampowered.com/'
 
-export * as IDota2Match from 'src/Dota2/Steam/IDota2Match.ts';
-export * as IDota2MatchStats from 'src/Dota2/Steam/IDota2MatchStats.ts';
+export * as IDota2Match from './IDota2Match.ts';
+export * as IDota2MatchStats from './IDota2MatchStats.ts';
 
 export enum GameMode {
   None,
