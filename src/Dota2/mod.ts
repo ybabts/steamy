@@ -1,1 +1,1 @@
-export * as Steam from 'src/Dota2/Steam/mod.ts';
+export * as Steam from './Steam/mod.ts';

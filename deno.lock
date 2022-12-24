@@ -6,6 +6,7 @@
     "https://deno.land/std@0.170.0/testing/_format.ts": "cd11136e1797791045e639e9f0f4640d5b4166148796cad37e6ef75f7d7f3832",
     "https://deno.land/std@0.170.0/testing/asserts.ts": "51353e79437361d4b02d8e32f3fc83b22231bc8f8d4c841d86fd32b0b0afe940",
     "https://deno.land/x/countries@v1.1.2/countries.ts": "de62b2d088a8a6635e179bae830a1b0b6aee906b4ce48b1db38021768ada0309",
-    "https://deno.land/x/countries@v1.1.2/types.ts": "0523421771bfbcc6ad80f0f154a9b71da2acbbbae80e43e429f2a82879b9fd82"
+    "https://deno.land/x/countries@v1.1.2/types.ts": "0523421771bfbcc6ad80f0f154a9b71da2acbbbae80e43e429f2a82879b9fd82",
+    "https://deno.land/x/steamy@v0.03/mod.ts": "0aac1dff41dbc9d659e1ce626e7d8a055e8d1114c96877c5f3fd206702a6fd2a"
   }
 }

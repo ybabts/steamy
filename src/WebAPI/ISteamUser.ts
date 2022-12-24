@@ -1,5 +1,5 @@
-import { SteamIdentifier } from "src/mod.ts";
-import { endpoint } from "src/WebAPI/mod.ts";
+import { SteamIdentifier } from "../mod.ts";
+import { endpoint } from "./mod.ts";
 
 type SteamID = SteamIdentifier | string | number;
 

@@ -1,5 +1,5 @@
 import { assertEquals, fail } from 'std/testing/asserts.ts';
-import SteamIdentifier from "src/SteamIdentifier.ts";
+import SteamIdentifier from "../src/SteamIdentifier.ts";
 
 Deno.test("fn.normalizeSteamID > throw error on improper ID3 format", () => {
   try {

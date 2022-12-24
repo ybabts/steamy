@@ -1,5 +1,5 @@
-import { SteamIdentifier } from "src/mod.ts";
-import { endpoint, Engine, GameMode, LeaverStatus, LobbyType, Skill, Status } from "src/Dota2/Steam/mod.ts";
+import { SteamIdentifier } from "../../mod.ts";
+import { endpoint, Engine, GameMode, LeaverStatus, LobbyType, Skill, Status } from "./mod.ts";
 
 type SteamID = SteamIdentifier | string | number;
 
