@@ -70,7 +70,7 @@ export interface SummaryPrivate {
   loccityid?: number;
 }
 
-const key = `&key=${Deno.args[0] || Deno.env.get('steam_api_key')}`;
+const key = `&key=${Deno.env.get('steam_api_key')}`;
 
 export async function getPlayerSummaries(steamids: SteamID[]) {
   const ids = steamids.map(id => id instanceof SteamIdentifier ? id.id64 : SteamIdentifier.normalizeSteamID(id).id64).join(',');
