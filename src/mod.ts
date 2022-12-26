@@ -15,5 +15,7 @@ export const endpoints = {
   stratz: 'https://api.stratz.com/' as string | null
 }
 
+export type HTTPMethod = 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE' | 'HEAD' | 'OPTIONS';
+
 export * as Steam from './Steam/mod.ts';
 export * as Dota2 from './Dota2/mod.ts';
