@@ -1,5 +1,5 @@
 import { apiKeys, endpoints } from "../../mod.ts";
-import { StatusCodes } from "x/https_status_codes@v1.2.0/mod.ts"
+import { StatusCodes } from "https://deno.land/x/https_status_codes@v1.2.0/mod.ts"
 
 export interface getAssetPrices_Options {
   /** The ISO639-1 language code for the language all localized strings should be returned in. Not all strings have been translated to every language. If a language does not have a string, the English string will be returned instead. If this parameter is omitted the string token will be returned for the strings. */

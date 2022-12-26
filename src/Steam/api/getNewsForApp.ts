@@ -1,5 +1,5 @@
 import { apiKeys, endpoints } from "../../mod.ts";
-import { StatusCodes } from "x/https_status_codes@v1.2.0/mod.ts"
+import { StatusCodes } from "https://deno.land/x/https_status_codes@v1.2.0/mod.ts"
 
 export interface getNewsForApp_Options {
   maxlength: number;

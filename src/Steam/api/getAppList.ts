@@ -1,5 +1,5 @@
 import { apiKeys, endpoints } from "../../mod.ts";
-import { StatusCodes } from "x/https_status_codes@v1.2.0/mod.ts"
+import { StatusCodes } from "https://deno.land/x/https_status_codes@v1.2.0/mod.ts"
 
 export async function getAppList() {
   const url = new URL(endpoints.steam + 'ISteamApps/GetAppList/v2');

@@ -1,5 +1,5 @@
 import { apiKeys, endpoints } from "../../mod.ts";
-import { StatusCodes } from "x/https_status_codes@v1.2.0/mod.ts"
+import { StatusCodes } from "https://deno.land/x/https_status_codes@v1.2.0/mod.ts"
 
 /** The user's vanity URL that you would like to retrieve a steam ID for, e.g. http://steamcommunity.com/id/gabelogannewell would use "gabelogannewell" */
 export async function resolveVanityURL(vanityurl: string) {

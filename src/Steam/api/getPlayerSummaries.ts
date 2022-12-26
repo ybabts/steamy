@@ -1,5 +1,5 @@
 import { apiKeys, endpoints } from "../../mod.ts";
-import { StatusCodes } from "x/https_status_codes@v1.2.0/mod.ts"
+import { StatusCodes } from "https://deno.land/x/https_status_codes@v1.2.0/mod.ts"
 import { PersonaState, CommunityVisibilityState, ProfileState, CountryCode, StateCode } from "../../Steam/types.ts";
 import { normalizeSteamID, SteamID } from "../../Steam/SteamIdentifier.ts";
 

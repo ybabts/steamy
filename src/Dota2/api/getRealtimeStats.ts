@@ -1,6 +1,6 @@
 import { apiKeys, endpoints } from "../../mod.ts";
 import { AbilityID, GameMode, HeroID, ItemID, LobbyType } from "../types.ts";
-import { StatusCodes } from "x/https_status_codes@v1.2.0/mod.ts"
+import { StatusCodes } from "https://deno.land/x/https_status_codes@v1.2.0/mod.ts"
 
 export async function getRealtimeStats(server_steam_id: string) {
   const url = new URL(endpoints.steam + 'IDOTA2MatchStats_570/GetRealtimeStats/v1');

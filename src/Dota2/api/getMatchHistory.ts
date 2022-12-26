@@ -1,7 +1,7 @@
 import { apiKeys, endpoints } from "../../mod.ts";
 import { normalizeSteamID, SteamID } from "../../Steam/SteamIdentifier.ts";
 import { GameMode, HeroID, LobbyType, Skill } from "../types.ts";
-import { StatusCodes } from "x/https_status_codes@v1.2.0/mod.ts"
+import { StatusCodes } from "https://deno.land/x/https_status_codes@v1.2.0/mod.ts"
 
 export interface getMatchHistory_Parameters {
   /** A list of hero IDs can be found via the GetHeroes method. */
