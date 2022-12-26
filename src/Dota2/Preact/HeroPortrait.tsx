@@ -1,4 +1,4 @@
-import { JSX } from "preact";
+import { JSX } from "https://esm.sh/preact@10.11.0";
 import { Heroes } from "../mod.ts";
 
 export interface HeroPortrait_Props {

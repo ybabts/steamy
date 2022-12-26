@@ -1,4 +1,4 @@
-import { JSX } from "preact";
+import { JSX } from "https://esm.sh/preact@10.11.0";
 
 export interface HeroIcon_Props {
   hero_id: number;
