@@ -1,6 +1,6 @@
-import { apiKeys, endpoints } from "src/mod.ts";
-import { GameMode, HeroID, LobbyType } from "src/Dota2/types.ts";
-import { StatusCodes } from "x/https_status_codes"
+import { apiKeys, endpoints } from "../../mod.ts";
+import { GameMode, HeroID, LobbyType } from "../types.ts";
+import { StatusCodes } from "x/https_status_codes@v1.2.0/mod.ts"
 
 export async function getTopLiveGame(partner: number | string) {
   const url = new URL(endpoints.steam + 'IDOTA2Match_570/GetTopLiveGame/v1');

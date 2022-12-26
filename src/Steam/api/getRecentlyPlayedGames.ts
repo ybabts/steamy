@@ -1,6 +1,6 @@
-import { apiKeys, endpoints } from "src/mod.ts";
-import { StatusCodes } from "x/https_status_codes"
-import { normalizeSteamID } from "src/Steam/SteamIdentifier.ts";
+import { apiKeys, endpoints } from "../../mod.ts";
+import { StatusCodes } from "x/https_status_codes@v1.2.0/mod.ts"
+import { normalizeSteamID } from "../../Steam/SteamIdentifier.ts";
 
 export interface getRecentlyPlayedGames_Parameters {
   /** @description Include game name and logo information in the output. The default is to return appids only. */

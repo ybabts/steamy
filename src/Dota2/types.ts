@@ -1,3 +1,6 @@
+export type PrimaryAttr = 'str' | 'agi' | 'int';
+export type AttackType = 'Melee' | 'Ranged';
+export type Role = 'Carry' | 'Nuker' | 'Initiator' | 'Disabler' | 'Durable' | 'Escape' | 'Support' | 'Pusher' | 'Jungler';
 export enum GameMode {
   None,
   AllPick,

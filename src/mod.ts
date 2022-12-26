@@ -15,5 +15,5 @@ export const endpoints = {
   stratz: 'https://api.stratz.com/' as string | null
 }
 
-export * as Steam from 'src/Steam/mod.ts';
-export * as Dota2 from 'src/Dota2/mod.ts';
+export * as Steam from './Steam/mod.ts';
+export * as Dota2 from './Dota2/mod.ts';

@@ -2,7 +2,7 @@
   "imports": {
     "std/": "https://deno.land/std@0.170.0/",
     "x/": "https://deno.land/x/",
-    "src/": "./src/",
-    "x/https_status_codes": "https://deno.land/x/https_status_codes@v1.2.0/mod.ts"
+    "preact": "https://esm.sh/preact@10.11.0",
+    "preact/": "https://esm.sh/preact@10.11.0/"
   }
 }
