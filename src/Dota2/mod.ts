@@ -1,1 +1,4 @@
-export * as Steam from './Steam/mod.ts';
+export * from './getMatchHistory.ts';
+export * from './getMatchDetails.ts';
+export * from './getRealtimeStats.ts';
+export * from './types.ts';

@@ -7,6 +7,11 @@
     "https://deno.land/std@0.170.0/testing/asserts.ts": "51353e79437361d4b02d8e32f3fc83b22231bc8f8d4c841d86fd32b0b0afe940",
     "https://deno.land/x/countries@v1.1.2/countries.ts": "de62b2d088a8a6635e179bae830a1b0b6aee906b4ce48b1db38021768ada0309",
     "https://deno.land/x/countries@v1.1.2/types.ts": "0523421771bfbcc6ad80f0f154a9b71da2acbbbae80e43e429f2a82879b9fd82",
+    "https://deno.land/x/https_status_codes@v1.2.0/mod.ts": "c03a1aa6036d247568adc315b45c5d6481547c06e1ce120c962dfbe26c2d8470",
+    "https://deno.land/x/https_status_codes@v1.2.0/src/lib/main/code/reason-phrases.ts": "ce5f7b828220bb4733cbf9f9ffe01c658c63f62fc076f4289310f336d21b9c18",
+    "https://deno.land/x/https_status_codes@v1.2.0/src/lib/main/code/records.ts": "d0f8bb59422ee11a02276edfe4466aba7b6b1c054dac05f236c088b6ce8a8fe8",
+    "https://deno.land/x/https_status_codes@v1.2.0/src/lib/main/code/status-codes.ts": "989f4fcaf659098dcf2f26b62963bed82b0285ed6693f2e54adf9e792c468fbd",
+    "https://deno.land/x/https_status_codes@v1.2.0/src/lib/main/code/utils.ts": "d2b4919a490ed627bcae66d48baffa15c491a9a6c7e9ff5370ac1634abadac6b",
     "https://deno.land/x/steamy@v0.03/mod.ts": "0aac1dff41dbc9d659e1ce626e7d8a055e8d1114c96877c5f3fd206702a6fd2a"
   }
 }
