@@ -1,7 +1,7 @@
-import { apiKeys, endpoints } from "../mod.ts";
-import { StatusCodes } from "x/https_status_codes@v1.2.0/mod.ts"
-import { PersonaState,CommunityVisibilityState,ProfileState,CountryCode,StateCode } from "./types.ts";
-import { normalizeSteamID } from "./SteamIdentifier.ts";
+import { apiKeys, endpoints } from "src/mod.ts";
+import { StatusCodes } from "x/https_status_codes"
+import { PersonaState, CommunityVisibilityState, ProfileState, CountryCode, StateCode } from "src/Steam/types.ts";
+import { normalizeSteamID } from "src/Steam/SteamIdentifier.ts";
 
 export async function getPlayerSummaries(steamids: (string | number)[]) {
   const url = new URL(endpoints.steam + 'ISteamUser/GetPlayerSummaries/v0002');

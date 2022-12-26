@@ -1,5 +1,2 @@
-export * from './getTopLiveGame.ts';
-export * from './getMatchHistory.ts';
-export * from './getMatchDetails.ts';
-export * from './getRealtimeStats.ts';
-export * from './types.ts';
+export * from 'src/Dota2/api/mod.ts'
+export * from 'src/Dota2/types.ts';
