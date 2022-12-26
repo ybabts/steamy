@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "preact"
+    "jsxImportSource": "https://esm.sh/preact@10.11.0"
   }
 }
