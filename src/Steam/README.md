@@ -6,7 +6,7 @@ But with a vanity URL, his profile is able to have this instead.
 
 The only problem with this is that we can't use a vanity URL for our API calls, we have to use their actual Steam ID. Luckily there's an API call to resolve their vanity URL. You can call it using the following code.
 ```ts
-import * as Steam from "https://deno.land/x/steamy@v0.05/Steam/mod.ts";
+import * as Steam from "https://deno.land/x/steamy@v0.05a/Steam/mod.ts";
 
 const req = await Steam.resolveVanityURL('GabeLoganNewell');
 const steamid = req.steamid;

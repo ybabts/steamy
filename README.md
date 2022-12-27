@@ -2,7 +2,7 @@
 Steamy is a library made to help interact with Valve's REST APIs for their various games and services by providing easy asynchronous functions to call them, along with a key manager, and type checking to boot. This module was made for use with ____Deno____ and you can import it with the line below.
 ```ts
 // I love Deno's web imports
-import * as steamy from "https://deno.land/x/steamy@v0.04/mod.ts"
+import * as steamy from "https://deno.land/x/steamy@v0.05a/mod.ts"
 ```
 In order to make any API calls, you'll need to set your API keys with the `setAPIKeys` function. You can set any of the API keys at a time, but if you don't have a proper API key set you won't be able to make any calls that require it.
 ```ts
