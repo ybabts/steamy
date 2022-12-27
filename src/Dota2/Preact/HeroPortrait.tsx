@@ -1,5 +1,5 @@
 import { JSX } from "https://esm.sh/preact@10.11.0";
-import { Heroes } from "../mod.ts";
+import { Heroes } from "../data/Heroes.ts";
 
 export interface HeroPortrait_Props {
   hero_id: number;
