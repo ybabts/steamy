@@ -6,5 +6,6 @@ export interface HeroIcon_Props {
 }
 
 export function HeroIcon(props: JSX.HTMLAttributes<HTMLImageElement> & HeroIcon_Props) {
+  if(!props.hero_id) return <img {...props} />
   return <img {...props} src={`https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/${Heroes[props.hero_id].name.slice(14)}.png`} />
 }
